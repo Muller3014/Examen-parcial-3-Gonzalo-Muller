@@ -3,12 +3,11 @@
   <summary><b>Link del repositorio:</b></summary>
   
   https://github.com/Muller3014/Examen-parcial-3-Gonzalo-Muller.git
-  
-<br>
-<br>
 </details>
 
-
+<br>
+<br>
+<br>
 <details>
   <summary><b>Enunciado del ejercicio</b></summary>
   
@@ -16,21 +15,27 @@
 
 ## Descripción
 Este proyecto implementa un sistema para gestionar tareas asignadas a diferentes actores. Cada tarea tiene una descripción, duración y un actor asignado que debe completarla dentro de un marco de tiempo definido. El sistema evalúa si los actores pueden completar sus tareas a tiempo.
-<br>
-<br>
-<br>
-<br>
 </details>
 
+<br>
+<br>
+<br>
 
 <details>
   <summary><b>Resolución de gestión de tareas</b></summary>
   
 ## Estructura del Proyecto
 
-### Clases Principales
 
-#### Clase `Tarea`
+
+<details>
+  <summary><b>Clases</b></summary>
+  
+## Clases Principales
+
+<details>
+<summary><b>Clase <code>Tarea</code></b></summary>
+  
 Representa una tarea con los siguientes atributos:
 - **id**: Identificador único.
 - **descripcion**: Descripción de la tarea.
@@ -51,8 +56,11 @@ public:
     std::string toString() const;
 };
 ```
+</details>
 
-#### Clase `Actor`
+<details>
+  <summary><b>Clase <code>Actor</code></b></summary>
+
 Representa un actor encargado de realizar tareas. Incluye:
 - **id**: Identificador del actor.
 - **descripcion**: Descripción del actor.
@@ -75,8 +83,11 @@ public:
     std::vector<Tarea> getTareas() const;
 };
 ```
+</details>
 
-#### Clase `Launcher`
+<details>
+  <summary><b>Clase <code>Launcher</code></b></summary>
+  
 Controlador principal del sistema. Sus funciones incluyen:
 - Crear tareas.
 - Crear actores.
@@ -99,12 +110,18 @@ private:
     std::vector<Tarea> tareas;
 };
 ```
+</details>
+</details>
 
 ---
 
-## Funcionalidades Detalladas
+<details>
+<summary><b>Funcionalidades Detalladas</b></summary>
 
-### Función `main`
+## Funcionalidades principales
+<details>
+<summary><b>Función <code>main</code></b></summary>
+
 Punto de entrada del programa. Inicializa el sistema y ejecuta las funcionalidades de `Launcher`.
 
 ```cpp
@@ -120,8 +137,11 @@ int main() {
     return 0;
 }
 ```
+</details>
 
-### Método `imprimirTareas`
+<details>
+<summary><b>Método <code>imprimirTareas</code></b></summary>
+
 Imprime las tareas almacenadas en el sistema.
 
 ```cpp
@@ -133,8 +153,11 @@ void Launcher::imprimirTareas() {
     cout << "=======================" << endl;
 }
 ```
+</details>
 
-### Método `crearActoresConInput`
+<details>
+<summary><b>Método <code>crearActoresConInput</code></b></summary>
+
 Solicita al usuario la información de los actores y los agrega al sistema.
 
 ```cpp
@@ -160,8 +183,11 @@ void Launcher::crearActoresConInput() {
     }
 }
 ```
+</details>
 
-### Método `asignarTareasConInput`
+<details>
+<summary><b>Método <code>asignarTareasConInput</code></b></summary>
+
 Permite al usuario asignar tareas a los actores.
 
 ```cpp
@@ -197,8 +223,11 @@ void Launcher::asignarTareasConInput() {
     }
 }
 ```
+</details>
 
-### Método `ejecutar`
+<details>
+<summary><b>Método <code>ejecutar</code></b></summary>
+
 Coordina la creación de tareas, la asignación de tareas y calcula el tiempo total para completar las tareas.
 
 ```cpp
@@ -247,10 +276,14 @@ void Launcher::ejecutar() {
     }
 }
 ```
+</details>
+</details>
 
 ---
 
-## Diagrama de Flujo
+<details>
+  <summary><b>Diagrama de Flujo</b></summary>
+
 
 ```mermaid
 graph TD;
@@ -264,15 +297,12 @@ graph TD;
     G --> I[Fin]
     H --> I
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+</details>
 </details>
 
+<br>
+<br>
+<br>
 <details>
   <summary><b>Cronograma y Asignación de Tareas</b></summary>
 
