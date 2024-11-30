@@ -1,0 +1,10 @@
+# ninja log v6
+1	301	7546917589980385	build.ninja	de7951c798d09482
+41	161	7546917590719410	CMakeFiles/new_target.dir/Crud/crud.cpp.obj	17d7cd6f8ac9c004
+13	406	7546917590438880	CMakeFiles/new_target.dir/Tarea/tarea.cpp.obj	8b567d143179ae6f
+1	434	7546917590310357	CMakeFiles/new_target.dir/main.cpp.obj	2b8998e5c42c6eb0
+26	511	7546917590575015	CMakeFiles/new_target.dir/Actores/funcion_actor.cpp.obj	dbef86510fa8ef1d
+61	757	7546917590916220	CMakeFiles/new_target.dir/launcher.cpp.obj	f6b3552290c73f03
+757	932	7546917597872618	new_target.exe	838698af4f522988
+5	629	7546922376852028	CMakeFiles/new_target.dir/launcher.cpp.obj	f6b3552290c73f03
+630	799	7546922383089534	new_target.exe	838698af4f522988
