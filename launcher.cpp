@@ -13,6 +13,23 @@
 
 using namespace std;
 
+vector<Tarea> launcher::crearTareas() {
+    return {
+        Tarea("A", "Reserva de vuelo", 20),
+        Tarea("B", "Informar a casa para empacar", 5),
+        Tarea("C", "Empacar maletas", 40),
+        Tarea("D", "Preparacion del billete por la agencia", 10),
+        Tarea("E", "Recoger el billete de la agencia", 5),
+        Tarea("F", "Llevar el billete a la oficina", 10),
+        Tarea("G", "Recoger las maletas de casa", 20),
+        Tarea("H", "Llevar maletas a la oficina", 25),
+        Tarea("I", "Conversacion sobre documentos requeridos", 35),
+        Tarea("J", "Dictar instrucciones para ausencia", 25),
+        Tarea("K", "Reunir documentos", 15),
+        Tarea("L", "Organizar documentos", 5),
+        Tarea("M", "Viajar al aeropuerto y facturar", 25)
+    };
+}
 
 void launcher::crearActoresConInput() {
     int numActores;
