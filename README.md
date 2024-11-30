@@ -20,9 +20,6 @@ Este proyecto implementa un sistema para gestionar tareas asignadas a diferentes
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 </details>
 
 
