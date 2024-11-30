@@ -1,18 +1,39 @@
 # Examen Parcial 3(Vinculante) - Gonzalo Müller
 <details>
-  <summary>LINK DEL REPOSITORIO:</summary>
+  <summary><b>Link del repositorio:</b></summary>
   
+  https://github.com/Muller3014/Examen-parcial-3-Gonzalo-Muller.git
+  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 </details>
 
 
-```markdown
+<details>
+  <summary><b>Enunciado del ejercicio</b></summary>
+  
 # Proyecto de Gestión de Tareas
 
 ## Descripción
 Este proyecto implementa un sistema para gestionar tareas asignadas a diferentes actores. Cada tarea tiene una descripción, duración y un actor asignado que debe completarla dentro de un marco de tiempo definido. El sistema evalúa si los actores pueden completar sus tareas a tiempo.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</details>
 
----
 
+<details>
+  <summary><b>Resolución de gestión de tareas</b></summary>
+  
 ## Estructura del Proyecto
 
 ### Clases Principales
@@ -251,10 +272,18 @@ graph TD;
     G --> I[Fin]
     H --> I
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</details>
 
----
+<details>
+  <summary><b>Cronograma y Asignación de Tareas</b></summary>
 
-## Cronograma y Asignación de Tareas
 
 ### Agente 1
 - **Tarea A**: Reserva de vuelo (0-20 min)
@@ -287,6 +316,13 @@ graph TD;
 -	**Tarea K**: Reunir documentos(35 - 50 min)
 -	**Tarea L**: Organizar documentos(50 - 55 min)
 -	**Tarea M**: Viajar al aeropuerto y facturar(75 - 100 min)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</details>
 
 
-<img src="uax_logo_nuevo.png" alt="UAX Logo" width="400">
